@@ -26,7 +26,7 @@ module.exports =  {
     }
   },
   _calculate: function (weight, area_name) {
-    var price_table = yaml.safeLoad(fs.readFileSync('./ems_base_file.yaml', 'utf8'));
+    var price_table = yaml.safeLoad(fs.readFileSync('./jp_ems_fee/price_table.yaml', 'utf8'));
     for (var weight_key in price_table[area_name] ){
       if (weight_key >= weight) {
         return price_table[area_name][weight_key];
