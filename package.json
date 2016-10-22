@@ -1,0 +1,25 @@
+{
+  "name": "jp_ems_fee_js",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/test-index.js --spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/webuilder240/jp_ems_fee_js.git"
+  },
+  "author": "Takuya Nishio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webuilder240/jp_ems_fee_js/issues"
+  },
+  "homepage": "https://github.com/webuilder240/jp_ems_fee_js#readme",
+  "dependencies": {
+    "js-yaml": "^3.6.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  }
+}
